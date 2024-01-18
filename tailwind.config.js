@@ -7,20 +7,35 @@ export default {
             blue: "#5956E9",
             black: "#232233",
             gray: "#6C6C72",
+            purple: "#7572FF",
             white: "#ffffff",
+            transparent: "transparent",
         },
         fontFamily: {
-            jos: ['"Josefin Sans"'],
+            josefin: ['"Josefin Sans"'],
         },
         fontSize: {
+            // 12.8 px
             sm: "0.8rem",
+            // 16 px
             base: "1rem",
+            // 20 px
             md: "1.25rem",
-            xl: "1.563rem",
-            "2xl": "1.953rem",
-            "3xl": "2.441rem",
-            "4xl": "3.052rem",
-            "5xl": "3.81rem",
+            // 25 px
+            lg: "1.563rem",
+            //31 px
+            xl: "1.953rem",
+            // 39 px
+            "2xl": "2.441rem",
+            // 48 px
+            "3xl": "3.052rem",
+            // 60 px
+            "4xl": "3.81rem",
+        },
+        extend: {
+            backgroundImage: {
+                "rectangle-patern": "assets",
+            },
         },
     },
     plugins: [],
