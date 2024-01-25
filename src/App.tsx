@@ -1,4 +1,5 @@
 import About from "modules/About/About";
+import Features from "modules/Features/Features";
 import Hero from "modules/Hero/Hero";
 import Layout from "modules/Layout/Layout";
 
@@ -10,6 +11,7 @@ export default function App() {
             </Workzone> */}
             <Hero />
             <About />
+            <Features />
             <div className="h-[200vh]"></div>
         </Layout>
     )

@@ -14,7 +14,7 @@ export default function Header({ }: Props) {
     }
     return (
         <BlockWrapper className="flex justify-center sticky z-40 top-[30px]">
-            <BlockContainer className="flex max-w-[1170px] flex-grow">
+            <BlockContainer className="flex max-w-[1170px] flex-grow !pb-0 !pt-0">
                 <div className="flex-grow flex justify-center items-center  relative">
                     {menuVisible && <Menu handleMenuVisible={handleMenuVisible} />}
                     <BarLeft handleMenuVisible={handleMenuVisible} />
