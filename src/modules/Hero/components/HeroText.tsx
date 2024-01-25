@@ -36,7 +36,7 @@ const HeroParagraph = () => {
 }
 
 const HeroSubtitle = () => {
-    return <h2 className='uppercase text-black font-semibold leading-[30px] mb-[19px] text-md md:mb-[23px] lg:text-lg lg:leading-[37.5px]'>Download App Now</h2>
+    return <h4 className='uppercase text-black font-semibold leading-[30px] mb-[19px] text-md md:mb-[23px] lg:text-lg lg:leading-[37.5px]'>Download App Now</h4>
 }
 
 type HeroLinkConfig = {
