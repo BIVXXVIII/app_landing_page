@@ -1,9 +1,7 @@
-import React from 'react'
 import googleplay from 'assets/img/GooglePlayLink.png'
 import appstore from 'assets/img/AppStoreLink.png'
-type Props = {}
 
-export default function HeroText({ }: Props) {
+export default function HeroText() {
     return (
         <div className='min-w-[240px] h-min relative mb-[60px] font-josefin md:left-[10px]'>
             <div className='bg-white relative -left-[10px] z-10 pt-[30px] pr-3 pb-[21px] pl-[18px] md:pt-[18px] md:pr-2 md:pb-[15px] md:pl-[18px]'>

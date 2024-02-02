@@ -1,4 +1,4 @@
-import { About, Hero, Features, InterfaceSlider, Download, Layout } from 'modules/index'
+import { About, Hero, Features, InterfaceSlider, Download, Layout, Footer } from 'modules'
 
 export default function App() {
     return (
@@ -8,7 +8,7 @@ export default function App() {
             <Features />
             <InterfaceSlider />
             <Download />
-            <div className="h-[200vh]"></div>
+            <Footer />
         </Layout>
     )
 }

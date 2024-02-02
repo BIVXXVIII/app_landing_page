@@ -1,8 +1,19 @@
-import About from "modules/About/About";
-import Download from "modules/Download/Download";
-import Features from "modules/Features/Features";
-import Hero from "modules/Hero/Hero";
-import InterfaceSlider from "modules/InterfaceSlider/InterfaceSlider";
-import Layout from "modules/Layout/Layout";
+import Hero from "modules/Hero";
+import About from "modules/About";
+import Download from "modules/Download";
+import Features from "modules/Features";
+import InterfaceSlider from "modules/InterfaceSlider";
+import Layout from "modules/Layout";
+import Header from "modules/Header";
+import Footer from "modules/Footer";
 
-export { About, Download, Features, Hero, InterfaceSlider, Layout };
+export {
+    About,
+    Download,
+    Features,
+    Hero,
+    InterfaceSlider,
+    Layout,
+    Header,
+    Footer,
+};

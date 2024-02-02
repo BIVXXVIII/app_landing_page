@@ -12,7 +12,6 @@ export default function MoveButton({ direction, sliderPosition, setSliderPositio
     const [disable, setDisable] = useState(false)
     useEffect(() => {
         const timer = setTimeout(() => {
-            console.log('able')
             setDisable(false)
         }, 800)
         return () => clearTimeout(timer)
