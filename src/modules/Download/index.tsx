@@ -1,7 +1,5 @@
-import React from 'react'
 import { BlockContainer, BlockText, BlockTitle, BlockWrapper } from 'components/index'
 import { StatusCards, StoreButtons, DownloadImg } from './components'
-import { downloadIcon } from 'assets/svg'
 
 export default function Download() {
     return (

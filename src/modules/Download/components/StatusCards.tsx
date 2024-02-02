@@ -1,4 +1,3 @@
-import React from 'react'
 import { StatusCard } from '.'
 import { thumbUpIcon, starIcon, downloadIcon } from 'assets/svg'
 type Props = {}

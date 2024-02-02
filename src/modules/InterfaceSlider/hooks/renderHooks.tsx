@@ -71,7 +71,7 @@ export const useRenderSliderNavigation = (props: Props) => {
     const renderNavigateBtns = (skip: string, index: number) => {
         return <button
             className={`w-4 h-4 rounded-full duration-200 drop-shadow-xl shadow-black border-2 focus-visible:border-none border-white ${index === sliderPosition ? 'bg-purple scale-[120%] outline outline-1 outline-purple' : 'bg-blue'}`}
-            key={`navigate${index}`}
+            key={`navigate${index}to${skip}`}
             onClick={() => { setSliderPosition(index) }}
         />
     }
