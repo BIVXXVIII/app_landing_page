@@ -1,16 +1,12 @@
-import bgImage from 'assets/img/backgroundRectangle.png'
-import HeroText from './components/HeroText'
-import Mocap from './components/Mocap'
-import BlockWrapper from 'components/BlockWrapper'
-import BlockContainer from 'components/BlockContainer'
-type Props = {}
+import { BlockContainer, BlockWrapper } from 'components/index'
+import { HeroText, Mockup } from './components'
 
-export default function Hero({ }: Props) {
+export default function Hero() {
     return (
-        <BlockWrapper className='min-h-[calc(100vh-160px)] flex justify-center pl-[26px] overflow-hidden' style={{ backgroundImage: `url('${bgImage}')` }}>
-            <BlockContainer className='flex-grow lg:items-center md:justify-between justify-center flex-wrap mt-[98px] gap-[50px] pb-[83px] md:pb-0'>
+        <BlockWrapper className='min-h-[calc(100vh-140px)] flex justify-center pl-[26px] overflow-hidden' bgBlue>
+            <BlockContainer className='flex-grow lg:items-center md:justify-between justify-center flex-wrap gap-[50px] !pb-0 md:pb-0 !pt-[65px]'>
                 <HeroText />
-                <Mocap />
+                <Mockup />
             </BlockContainer>
         </BlockWrapper>
     )
